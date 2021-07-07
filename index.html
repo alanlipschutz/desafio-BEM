@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-bem</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <img class="header__container__logo" src="./Logo.png" alt="" />
+        <button class="header__container__button">Ingresar</button>
+      </div>
+    </header>
+    <section class="main-content">
+      <h2 class="main-content__info">
+        Hola, ¿querés recibir novedades de apx?
+      </h2>
+      <form class="form">
+        <label class="form__form-content">
+          <span class="form__form-content__title">Dejanos tu email</span>
+          <input type="email" class="form__form-content__input" />
+        </label>
+        <button type="submit" class="form_form-content__button">Enviar</button>
+      </form>
+    </section>
+  </body>
+</html>
